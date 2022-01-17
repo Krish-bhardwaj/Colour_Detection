@@ -8,7 +8,7 @@ In this **Color Detection Python Project**, we can automatically get the name of
 1. Firstly we have dataset that contains the color name and its values
 2. After selecting a perticular segment we calculate the distance from each color and find the shortest one.
 
-# About Dataset
+## About Dataset
 Colors are made up of 3 primary colors **red** , **green** , and **blue** . 
 
 In computers, we define each color value within a range of 0 to 255. therefore we can define a colour in 256*256*256 = 16,581,375 ways !
@@ -19,7 +19,7 @@ But we don’t need to map all the values. We will be using a dataset that conta
 ## Colors Dataset
 The colors.csv file includes 865 color names along with their RGB and hex values.
 
-# Prerequisites
+## Prerequisites
 OpenCV, Pandas, and numpy are the Python packages that are necessary for this project in Python. 
 To install them, simply run this pip command in your terminal:
 
@@ -29,19 +29,19 @@ pip install numpy
 pip install pandas
 ```
 
-# The project contains :
+## The project contains :
 - Color_detection.py – main source code of our project.
 - Colors.csv – a file that contains our dataset.
 
-# Run Python File
+## Run Python File
 
 ```
 python code.py -i 'add your image path here'
 ```
 
-# Demo & documention ( in progress )
+## Demo & documention ( in progress )
 
-# Future scope 
+## Future scope 
 1. make an API
 2. Embede in a big project !
 
