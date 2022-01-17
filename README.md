@@ -1,4 +1,7 @@
 # Colour Detection
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+
 In this **Color Detection Python Project**, we can automatically get the name of the color by clicking on them. 
 
 ## Approach to solve this problem 
@@ -7,7 +10,9 @@ In this **Color Detection Python Project**, we can automatically get the name of
 
 # About Dataset
 Colors are made up of 3 primary colors **red** , **green** , and **blue** . 
+
 In computers, we define each color value within a range of 0 to 255. therefore we can define a colour in 256*256*256 = 16,581,375 ways !
+
 There are approximately 16.5 million different ways to represent a color. Our task is  to map each color’s values with their corresponding names in the dataset . 
 But we don’t need to map all the values. We will be using a dataset that contains RGB values with their corresponding names.
 
@@ -29,10 +34,15 @@ pip install pandas
 - Colors.csv – a file that contains our dataset.
 
 # Run Python File
-> python code.py -i 'add your image path here'
 
-# demo & documention ( in progress )
+```
+python code.py -i 'add your image path here'
+```
 
-# future scope 
+# Demo & documention ( in progress )
+
+# Future scope 
 1. make an API
 2. Embede in a big project !
+
+### Author : Krish Bhardwaj
